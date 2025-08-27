@@ -1,1 +1,27 @@
-enter power shell -> ssh -p <PORT_(if different from 22)> <USERNAME>@<HOST>
+LEVEL 0 enter power shell -> ssh -p <PORT_(if different from 22)> <USERNAME>@<HOST>
+bandit0 (usr name and passwrd)
+
+LEVLE 1 after log in ssh -p 2220 bandit0@bandit.labs.overthewire.org
+ls to list the files, (readme)
+then cat (filename) to display the file and take the password
+bandit1 pswrd:ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+-exit and log in again ssh -p 2220 bandit1@bandit.labs.overthewire.org -> put password and you are in
+
+2ND LEVEL
+1 There are a few safe ways:
+
+Use ./- (Here ./ means “this file in the current directory,” so the shell knows you mean the file named -.)
+
+2 Or use an absolute path
+cat /home/<youruser>/-
+
+3 
+
+cat -- -
+
+passwrd: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+3RD LEVEL
+
+
