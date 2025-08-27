@@ -8,7 +8,7 @@
 # Phase 1 (Weeks 1–8): Hacker Bootcamp + Intro CS
 
 ## Week 1
-- [ ] **Day 1 (Today):**  
+- [X] **Day 1 (Today):**  
   - [OverTheWire Bandit lvl 0–2](https://overthewire.org/wargames/bandit/)  
   - [Kali Linux installed ✅]  
   - Create GitHub repo `hacking-log` and commit README.md  
