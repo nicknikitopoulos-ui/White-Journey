@@ -13,7 +13,7 @@
   - [Kali Linux installed ✅]  
   - Create GitHub repo `hacking-log` and commit README.md  
 
-- [ ] **Day 2:**  
+- [X] **Day 2:**  
   - [OverTheWire Bandit lvl 3–5](https://overthewire.org/wargames/bandit/)  
   - [freeCodeCamp Python Basics](https://www.freecodecamp.org/learn/scientific-computing-with-python/) (1 hr)  
   - Commit notes to GitHub  
