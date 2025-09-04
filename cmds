@@ -26,3 +26,52 @@ passwrd: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 5th level
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+ls
+cd inhere
+find . -type f -readable ! -executable -size 1033c
+cat ./maybehere07/.file2
+
+**EXPLANATION**
+1. find .
+find = the program that searches the filesystem.
+. = the starting point (current directory). You could also put /tmp, /home, or any path.
+2. -type f
+-type lets you filter by what kind of thing it is.
+f = regular file.
+So you won’t see directories, symlinks, sockets, or devices.
+3. -readable
+Only show files you actually have read permission for.
+Otherwise, find might show files you can’t even open.
+4. ! -executable
+The ! means NOT.
+-executable = is it runnable?
+So ! -executable means “skip any file that has execute permission.”
+This avoids shell scripts or binaries.
+5. -size 1033c
+-size = filter by size.
+1033 = the exact number.
+c = count in bytes (important: if you leave off the c, it defaults to 512-byte blocks, which is not what you want here).
+So: “only files that are exactly 1033 bytes long.”
+**ENDS*
+
+PSWRD: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+6TH LEVEL
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+***EXPLANATION***
+find / → search from the root directory / (because the file could be anywhere).
+-type f → only look for regular files (not directories, sockets, symlinks, etc.).
+-user bandit7 → only files owned by user bandit7.
+-group bandit6 → only files owned by group bandit6.
+-size 33c → only files exactly 33 bytes long (c means count in bytes).
+2>/dev/null → hides all “Permission denied” error messages so your output is cleaner.
+cat /var/lib/dpkg/info/bandit7.password 
+***ENDS***
+PASSWORKD: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+7TH LEVEL
+cat data.txt
+grep "millionth" data.txt
+
+PASSWORD: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
